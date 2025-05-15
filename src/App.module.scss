@@ -1,0 +1,62 @@
+@import 'variables';
+
+.hover-border-red{
+  &:hover{
+    border-color: var(--red) !important;
+  }
+}
+.hover-border-green{
+  &:hover{
+    border-color: #66a549 !important;
+  }
+}
+
+.app{
+  display: flex;
+  position: relative;
+}
+
+.dimensions{
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  color: yellow;
+  background-color: black;
+  
+  padding: 10px;
+  z-index: 4;
+}
+
+:global {
+  #two, #three, #four {
+    position: absolute;
+    top: -80px;
+  }
+}
+
+.observer-container {
+  position: relative;
+}
+
+.hidden {
+  opacity: 0;
+  transform: translateY(200px);
+}
+
+.visible {
+  transform: translateY(0px);
+  opacity: 1;
+}
+
+@media (max-width: 950px) {
+  :global {
+    #two, #three, #four {
+      top: -110px;
+    }
+  }
+
+  .app{
+    display: grid;
+  }
+}

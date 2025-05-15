@@ -1,0 +1,47 @@
+
+.navi-background{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 50px;
+  width: 50px;
+
+  background: #1a1a1a;
+  margin-bottom: 15px;
+
+  cursor: pointer;
+  transition: background 0.25s ease, border 0.25s ease; 
+
+  border: 1px solid rgb(39, 39, 39);
+  border-radius: 10px;
+  
+  &:hover{
+    background: #1f1f1f;
+  }
+
+  &:active{
+    background: #242424;
+  }
+
+  img{
+    display: block; // fixes some sort of padding below the image
+    filter: invert(60%);
+
+    transition: filter 0.75s ease; 
+  }
+}
+
+@media (max-width: 950px) {
+  .navi-background{ 
+    margin-bottom: 0px !important;
+    margin-right: 10px;
+
+    &:hover{
+      background: none;
+    }
+    &:active{
+      background: none;
+    }
+  }
+}
