@@ -43,13 +43,13 @@ function App() {
 
   useEffect(() => {
     const scrollRanges = [ 
-      { width: 445, ranges: [1326, 1938, 3468] },
-      { width: 864, ranges: [1224, 2346, 3162] },
-      { width: 950, ranges: [1020, 2140, 2958] },
-      { width: 1025, ranges: [714, 1420, 2960] },
-      { width: 1235, ranges: [610, 1630, 3140] },
-      { width: 1360, ranges: [610, 1630, 2650] },
-      { width: Infinity, ranges: [400, 1600, 2500] }
+      { width: 445, ranges: [1426, 2338, 3868] },
+      { width: 864, ranges: [1224, 2746, 3662] },
+      { width: 950, ranges: [1020, 2640, 3458] },
+      { width: 1025, ranges: [714, 1820, 3360] },
+      { width: 1235, ranges: [610, 2030, 3540] },
+      { width: 1360, ranges: [610, 2230, 3150] },
+      { width: Infinity, ranges: [500, 2200, 3100] }
     ];
   
     const handleScroll = () => {
