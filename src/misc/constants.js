@@ -35,11 +35,10 @@ export function constants() {
   languages[0].work_text4 = "od";
   languages[0].work_text5 = "Napredna";
   languages[0].work_text6 = "stran";
-  languages[0].work_text7 = "Dnevnik razpoloženja";
-  languages[0].work_text8 = "Spletna";
-  languages[0].work_text9 = "aplikacija";
-  languages[0].work_text10 = "Sestavi računalnik";
-
+  languages[0].work_text7 = "Sestavi računalnik";
+  languages[0].work_text8 = "Celovita";
+  languages[0].work_text9 = "Stran";
+  languages[0].work_text10 = "Aplikacija za finance";
   languages[0].pricing_text1 = "OSNOVNI";
   languages[0].pricing_text2 = "uro";
   languages[0].pricing_text3 = "NAPREDNI";
@@ -77,10 +76,10 @@ export function constants() {
   languages[1].work_text4 = "from";
   languages[1].work_text5 = "Advanced";
   languages[1].work_text6 = "website";
-  languages[1].work_text7 = "Mood tracker";
-  languages[1].work_text8 = "Web";
-  languages[1].work_text9 = "app";
-  languages[1].work_text10 = "PC part picker";
+  languages[1].work_text7 = "PC part picker";
+  languages[1].work_text8 = "Full Stack";
+  languages[1].work_text9 = "website";
+  languages[1].work_text10 = "Finance app";
 
   languages[1].pricing_text1 = "BASIC";
   languages[1].pricing_text2 = "hour";
