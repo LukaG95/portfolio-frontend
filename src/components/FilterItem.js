@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import styles from './FilterItem.module.scss';
 import useWindowDimensions from '../WindowDimensions.js';
 
